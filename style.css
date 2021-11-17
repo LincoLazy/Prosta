@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&display=swap');
+.body
+{
+    padding: 0;
+    margin: 0;
+    display: flex;
+    font-family: 'Dancing Script', cursive;
+}
+*
+{
+    padding: 0;
+    margin: 0;
+}
+.container
+{
+    display: block;
+    position: absolute;
+    left:0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background-image: url("https://i.gifer.com/embedded/download/Vb9f.gif");  
+    font-family: 'Dancing Script', cursive;
+}
+.card
+{
+    display: block;
+    position: absolute;
+    top: 60px;
+    left: 25%;
+    right: 25%;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 5px 5px 30px 1px rgba(17, 17, 17, 0.349);
+}
+.card h1
+{
+    margin: 20px;
+}
+.card p
+{
+    font-size: 17px;
+    margin: 20px;
+}
+.card-line
+{
+    display: block;
+    position: relative;
+    height: 5px;
+    background-color: #fff ;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+
+}

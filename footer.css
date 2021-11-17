@@ -1,0 +1,85 @@
+body
+{
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+*
+{
+    margin: 0;
+    padding: 0;
+}
+.footer
+{
+    display:block;
+    position:absolute; 
+    left: 0; 
+    right: 0; 
+    bottom: 0; 
+    height: 50px;
+    background-color: #fff;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-top: 20px;
+    animation-name: footer-animation;
+    animation-duration: 1s;
+}
+
+.footer a
+{
+    display: inline-block;
+}
+
+.instagram-icon
+{
+    display: block;
+    position: relative;
+    width: 20px;
+    height: 20px;
+    background-image: url("instagram.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.telegram-icon
+{
+    display: block;
+    position: relative;
+    width: 20px;
+    height: 20px;
+    background-image: url("telegram.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-left: 10px;
+    margin-right: 10px;
+}.github-icon
+{
+    display: block;
+    position: relative;
+    width: 20px;
+    height: 20px;
+    background-image: url("github.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.facebook-icon
+{
+    display: block;
+    position: relative;
+    width: 20px;
+    height: 20px;
+    background-image: url("facebook.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-left: 10px;
+    margin-right: 10px;
+}
